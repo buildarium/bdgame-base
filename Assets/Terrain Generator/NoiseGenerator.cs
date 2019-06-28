@@ -6,7 +6,7 @@ public class NoiseGenerator : MonoBehaviour
 {
     public float[,] GenerateNoiseMap(int mapWidth, int mapDepth, float scale) {
         // Generate a 2D array of coordinates based on the function parameters
-        float[,] noiseMap = new float[mapDepth, mapWidth]
+        float[,] noiseMap = new float[mapDepth, mapWidth];
 
         for(int z = 0; z < mapDepth; z++) {
             for (int x = 0; x < mapWidth; x++) {
